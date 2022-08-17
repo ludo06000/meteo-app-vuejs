@@ -1,0 +1,64 @@
+*{
+        margin: 0;
+        padding: 0;
+        vertical-align: baseline;
+}
+
+.meteoContain {
+    display: flex;
+    width: 1080px;
+}
+
+.meteoContainer{
+    padding: 10px;
+    width: 100px;
+    margin: 10px;
+    font-size: 12px;
+    border: 1px solid black;
+    border-radius: 10px;
+    line-height: 18px;
+    background-image: url("../img/moutainWeather40.png");
+}
+
+
+.resultData{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.choixContain{
+    display: flex;
+    align-items: flex-start;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+.choixContain input{
+    height: 18px;
+    margin: 0 5px;
+    border: 1px solid #b8bccf;
+    border-radius: 5px;
+}
+
+.choixContain input:focus{
+    background-color: rgba(225, 206, 255, 0.657);
+    border: orchid;
+    outline: none;
+    color: rgb(104, 103, 103);
+    border-radius: 8px;
+    transition: 0.6s;
+}
+
+.choixContain button{
+    height: 20px;
+    padding: 2px;
+    margin: 0 5px;
+    border: none;
+}
+
+.choixContain button:hover{
+   background-color:#b8bccf;
+   border: 1px solid #b8bccf;
+   border-radius: 8px;
+   transition: 0.6s;
+}
