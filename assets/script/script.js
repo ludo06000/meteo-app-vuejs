@@ -48,7 +48,7 @@ const RootComponent ={
     //Création de la récupération de la météo au mounted de la ville de Nice
     async mounted () {
         
-        const apiKey = "0df122ce0b1a3cee667c0ee1bf25a536";
+        const apiKey = "Token Api to put here";
         const urlNice = (`https://api.openweathermap.org/data/2.5/forecast?q=nice,fr,06000&appid=${apiKey}&units=metric&lang=fr`);
         // envoi de la requette
         const meteoDataNice = await fetch (urlNice);
